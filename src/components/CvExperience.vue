@@ -13,6 +13,12 @@
         <p>Jefe interino del sector</p>
         <p>Postulado para el área de Sistemas</p>
       </div>
+      <div class="experience-item">
+        <h3>Tecnico Informatico CH-Computacion</h3>
+        <p>marzo 2009- febrero 2014</p>
+        <p>Tecnico a Cargo REMOTO Y PRESENCIAL</p>
+        <p>Sistems-Redes-Hardware/Software-Soporte</p>
+      </div>
       <!-- Agrega más elementos de experiencia aquí -->
     </div>
   </template>
