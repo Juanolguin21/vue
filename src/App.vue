@@ -1,12 +1,12 @@
 <template>
   <div id="cv-app">
     <CvHeader />
+    <CvLinks />
     <CvSummary />
     <CvExperience />
     <CvEducation />
     <CvSkills />
     <CvLanguages />
-    <CvLinks />
   </div>
 </template>
 
