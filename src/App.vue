@@ -43,7 +43,7 @@ export default {
   justify-content: space-between;
   min-height: 100vh;
   position: relative; /* Necesario para posicionar el pseudo-elemento */
-  z-index: -1; /* Asegura que el contenido esté encima del pseudo-elemento */
+  z-index: 1; /* Asegura que el contenido esté encima del pseudo-elemento */
   border-radius: 2%;
 
 }
@@ -57,7 +57,7 @@ export default {
   height: 100%;
   background-position: center;
   background-color: grey; /* Capa semitransparente blanca */
-  z-index: -1; /* Posiciona el pseudo-elemento detrás del contenido */
+  z-index:-1; /* Posiciona el pseudo-elemento detrás del contenido */
   border-radius: 2%;
 
 }

@@ -21,6 +21,15 @@ export default {
   margin-bottom: 20px;
 }
 
+.cv-links a {
+  display: inline-block; /* Ensure the link is clickable */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  position: relative;
+  z-index: 1; /* Ensure the link is above other elements */
+
+}
+
+
 .logo {
   width: 30px;
   height: 30px;
