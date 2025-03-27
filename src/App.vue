@@ -12,12 +12,12 @@
 
 <script>
 import CvHeader from './components/CvHeader.vue';
+import CvLinks from './components/CvLinks.vue';
 import CvSummary from './components/CvSummary.vue';
 import CvExperience from './components/CvExperience.vue';
 import CvEducation from './components/CvEducation.vue';
 import CvSkills from './components/CvSkills.vue';
 import CvLanguages from './components/CvLanguages.vue';
-import CvLinks from './components/CvLinks.vue';
 
 export default {
   name: 'App',
@@ -36,7 +36,7 @@ export default {
 <style>
 #cv-app {
   font-family: 'Arial', sans-serif;
-  margin: 100px;
+  margin: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;

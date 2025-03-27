@@ -1,28 +1,34 @@
 <template>
-    <div class="cv-links">
-      <h2>Links</h2>
-      <a href="https://github.com/Juanolguin21">GitHub</a><br>
-      <a href="https://www.linkedin.com/in/juano34519842/">LinkedIn</a>
-    </div>
-  </template>
-  
-  <script>
-  export default {
-    name: 'CvLinks'
-  }
-  </script>
-  
-  <style scoped>
-   h2 {
-      color: aliceblue;
-  }
-  .cv-links {
-    margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    color: brown;
-  }
-  </style>
+  <div class="cv-links">
+    <h2>Links</h2>
+    <a href="https://github.com/Juanolguin21" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+      <img src="../assets/github.png" alt="GitHub" class="logo">
+    </a>
+    <a href="https://www.linkedin.com/in/juano34519842/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <img src="../assets/linkedin.png" alt="LinkedIn" class="logo">
+    </a>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'CvLinks'
+}
+</script>
+
+<style scoped>
+.cv-links {
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+</style>
