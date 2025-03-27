@@ -23,12 +23,12 @@ export default {
   name: 'App',
   components: {
     CvHeader,
+    CvLinks,
     CvSummary,
     CvExperience,
     CvEducation,
     CvSkills,
-    CvLanguages,
-    CvLinks
+    CvLanguages
   }
 }
 </script>
